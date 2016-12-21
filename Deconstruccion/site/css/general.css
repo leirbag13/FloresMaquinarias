@@ -1,0 +1,352 @@
+@charset "utf-8";
+/*-----------*/
+.clear{
+	clear:both;
+}
+/*-----------*/
+html{
+	background-color:#006100;
+	width:100%;
+	height:auto;
+}
+body{
+	background-image:url(../img/fondoCielo.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+/*------------------------*/
+#cabecera{
+	width:950px;
+	height:110px;
+	margin:0 auto;
+}
+#logoCabecera{
+	width:315px;
+	height:110px;
+	float:left;
+}
+#botonera{
+	width:623px;
+	height:40px;
+	margin:60px 0 8px 9px;
+	float:right;
+}
+#boton1, #boton2, #boton3, #boton4, #boton5, #boton6{
+	height:40px;
+	float:left;
+}
+#boton1{width:69px;}
+#boton2{width:103px;}
+#boton3{width:118px;}
+#boton4{width:78px;}
+#boton5{width:144px;}
+#boton6{width:107px;}
+#boton1 a, #boton2 a, #boton3 a, #boton4 a, #boton5 a, #boton6 a{
+	width:100%;
+	height:100%;
+	display:block;
+	text-decoration:none;
+	color:#ffff00;
+	font-weight:bold;
+	font-size:14px;
+	line-height:40px;
+	text-align:center;
+	background-color:#FF3300;
+	border-bottom:#663300 solid 1px;
+	border-left:#663300 solid 1px;
+	border-top:#663300 solid 1px;
+}
+#boton1 a{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#boton6 a{
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-right:#663300 solid 1px;
+}
+#boton1 a:hover, #boton2 a:hover, #boton3 a:hover, #boton4 a:hover, #boton5 a:hover, #boton6 a:hover{
+	background-color:transparent;
+	color:#000;
+}
+/*----------------------------*/
+#contenedor{
+	width:950px;
+	height:390px;
+	margin:0 auto;
+}
+#contenido{
+	width:950px;
+	height:390px;
+}
+#pasto{
+	height:240px;
+	margin:0 auto;
+	z-index:5;
+	background-image:url(../img/pasto.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	top:-100px;
+}
+#pie{
+	height:100px;
+	margin:-100px auto;
+	border-top:#ffc600 solid 5px;
+	background-image:url(../img/fondoPie.jpg);
+	background-position:top left;
+	background-repeat:repeat-x;
+}
+#flashPasto{
+	width:950px;
+	height:240px;
+	z-index:8;
+	margin:0 auto;
+}
+#flashPie{
+	width:950px;
+	height:100px;
+	z-index:8;
+	margin:0 auto;
+}
+/*-------------------QSOMOS---------------------*/
+#contenidoQsomos{
+	width:930px;
+	height:370px;
+	padding:10px;
+	background-color:#FFF;
+}
+#columnaQsomos1{
+	width:277px;
+	height:334px;
+	float:left;
+	border-bottom:#CCC solid 3px;
+	border-left:#CCC solid 3px;
+	border-top:#CCC solid 3px;
+	font-size:14px;
+	line-height:180%;
+	text-align:justify;
+	text-indent:20px;
+	padding:15px;
+}
+#columnaQsomos2{
+	width:617px;
+	height:364px;
+	float:left;
+	border-bottom:#CCC solid 3px;
+	border-right:#CCC solid 3px;
+	border-top:#CCC solid 3px;
+}
+/*---------------SERVICIOS------------------*/
+#columnaServicios1{
+	width:307px;
+	height:364px;
+	float:left;
+	border-bottom:#CCC solid 3px;
+	border-left:#CCC solid 3px;
+	border-top:#CCC solid 3px;
+}
+.imgServicios{
+	width:307px;
+	height:182px;
+}
+#columnaServicios2{
+	width:557px;
+	height:304px;
+	float:left;
+	border-bottom:#CCC solid 3px;
+	border-right:#CCC solid 3px;
+	border-top:#CCC solid 3px;
+	font-size:16px;
+	line-height:160%;
+	text-align:justify;
+	padding:30px;
+}
+/*---------------------CONTACTO------------*/
+#contacto{
+	width:237px;
+	height:100px;
+	background-color:#FF3300;
+	color:#FFF;
+	font-weight:bold;
+	font-size:15px;
+	line-height:150%;
+	margin:80px 0 0 0;
+	padding:20px;
+}
+/*--------------------PRODUCTOS----------------*/
+#btnNaranja li{
+	width:180px;
+	height:45px;
+}
+#btnNaranja li a{
+	width:100%;
+	height:100%;
+	display:block;
+	background-color:#FF6600;
+	border:#FFF solid 2px;
+	text-decoration:none;
+	color:#000;
+	font-size:14px;
+	line-height:45px;
+	text-align:center;
+	text-indent:-5px;
+	font-weight:bold;
+}
+#btnNaranja li a:hover{
+	background-color:#FFC033;
+}
+#btnVerde li{
+	width:180px;
+	height:25px;
+}
+#btnVerde li a{
+	background-color:#006600;
+	color:#FFF;
+	text-align:left;
+	line-height:25px;
+	text-indent:15px;
+	border:none;
+	margin:0 0 0 2px;
+}
+#btnVerde li a:hover{
+	color:#006600;
+	background-color:#FFF;
+}
+.lineaVerde{
+	width:180px;
+	height:1px;
+	background-color:#006600;
+	margin:0 0 0 2px;
+}
+.lineaNaranja{
+	width:160px;
+	height:1px;
+	background-color:#FF0000;
+	margin-left:10px;
+}
+/*------------------------OBRAS--------------*/
+#btnObras li{
+	width:180px;
+	height:25px;
+}
+#btnObras li a{
+	width:100%;
+	height:100%;
+	display:block;
+	background-color:#FF6600;
+	text-decoration:none;
+	color:#000;
+	font-size:14px;
+	line-height:25px;
+	text-align:left;
+	text-indent:15px;
+	font-weight:bold;
+}
+#btnObras li a:hover{
+	background-color:#FFC033;
+}
+.lineaObra{
+	width:180px;
+	height:2px;
+	background-color:#FF6600;
+}
+.lineaRoja{
+	width:160px;
+	height:2px;
+	background-color:#FF0000;
+	margin-left:10px;
+}
+#columnaObras2{
+	width:617px;
+	height:364px;
+	float:left;
+	border-bottom:#CCC solid 3px;
+	border-right:#CCC solid 3px;
+	border-top:#CCC solid 3px;
+}
+#tituloObras{
+	width:617px;
+	height:34px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:34px;
+	text-indent:10px;
+	padding-top:10px;
+}
+.btnImgObra{
+	width:170px;
+	height:80px;
+	margin:10px;
+	float:left;
+}
+.btnImgObra a{
+	width:100%;
+	height:100%;
+	display:block;
+	border:#000 solid 2px;
+}
+.btnImgObra a:hover{
+	border:#F00 solid 2px;
+}
+/*---------------------------------SLIDER----
+#textoPasto{
+	width:950px;
+	height:60px;
+	margin:0 auto;
+	z-index:10px;
+}
+.pix_diapo_home {
+	clear: both;
+	height: 204px;
+	overflow: hidden;
+	position: relative;
+	width: 900px;
+}
+.pix_diapo_home > div {
+	display: none;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#pix_pag {
+	margin: 0 auto 0 auto;
+	position: relative;
+	width: 204px;
+	z-index: 1002;
+}
+#pix_prev, #pix_next {cursor: pointer;display: block;height: 40px;margin-top: -20px;position: absolute;top: 50%;width: 40px;z-index: 1001;}
+#pix_prev {background: url(../img/prev.png) no-repeat;left: 10px;display: none;}
+#pix_next {background: url(../img/next.png) no-repeat;left: auto!important;right: 10px!important;display: none;}
+#pix_commands {cursor: pointer;display: block;float: left;height: 26px;margin: -30px 0 0 13px;position: relative;width: 24px;}
+#pix_play {background: url(../img/play.png) center no-repeat;height: 24px;left: 0;position: absolute;top: 0;width: 24px;}
+#pix_stop {background: url(../img/pause.png) center no-repeat;height: 24px;left: 0;position: absolute;top: 0;width: 24px;}
+#pix_pag_ul {float: right;margin: -50px -50px 0 0;padding: 0;}
+#pix_pag_ul > li {cursor: pointer;display: block;display: inline-block;float: left;list-style: none;margin: 0 5px 0 0;padding: 20px 8px 0;
+    text-align: center;text-indent: -9999px;width: 16px;}
+#pix_pag_ul > li > span {background: #4b4b4b;border-radius: 8px;display: block;height: 16px;width: 16px;margin-top:3px;}
+#pix_pag_ul > li:hover > span > span {background: #ccc;}
+#pix_pag_ul > li > span > span {border-radius: 8px;display: block;float: left;height: 8px;margin: 4px;width: 8px;}
+#pix_pag_ul > li.diapocurrent > span > span {background: #5EB846;border-radius: 8px;}
+#pix_pag_ul > li > .pix_thumb {border: 4px solid #f2f2f2;border: 4px solid #e6e6e6;border: 4px solid #e6e6e6\9;box-shadow: 0 1px 8px #000;
+    height: 58px;left: -17px;position: absolute;top: -40px;width: 58px;}
+#pix_pag_ul > li > .thumb_arrow {border-left: 4px solid transparent;border-right: 4px solid transparent;border-top: 4px solid  #e6e6e6;
+    top: 26px;left: 12px;position: absolute;}
+.pix_relativize {overflow: hidden;position: relative;}
+.imgFake {cursor: pointer;}
+.elemHover {position: absolute;}
+.caption {background: rgba(0, 0, 0, 0.8);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000)\9;bottom: 20px;color: #fff;
+    display: block;font-size: 13px;padding: 10px;width: 900px;}
+.ui-loader {display: none;}
+*/

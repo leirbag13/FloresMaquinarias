@@ -1,0 +1,183 @@
+/* CSS Document */
+
+body{
+background: url(IMG/fondo.jpg);
+margin:0px;}
+
+#Contenedor{
+width:770px;
+margin:auto;}
+
+#destacados{
+width:770px;
+margin:auto;
+text-align:center}
+
+#destacados a {
+color:#FFFF99;
+width:770px;
+margin:auto;
+text-align:center}
+
+#banner{
+height:200px;
+background:url(IMG/banner.jpg);}
+
+#cuerpo{
+width:770px;
+/*min-height:200px;*/
+overflow: hidden; /* con esto hacemos que el tamaño de la etiqueta cuerpo se adecue al contenido (que en este caso es caja y menu */
+background:url(IMG/cuerpo.jpg);}
+
+#caja{
+font-family:Arial, Helvetica, sans-serif;
+width:570px;
+font-size:11px;
+color:#FFFFFF;
+float:right;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+margin-right:10px;
+text-align:justify;}
+
+#caja h1{
+font-size:14px;
+font-family:"Century Gothic", Verdana, Arial;
+color:#FFFFCC;
+font-weight:800;
+padding-left:25px;}
+
+#caja img{
+margin:4px;
+float:right;
+border:#CCCCCC 1px solid;}
+
+#caja b{
+color:#FFFF99;
+font-weight:bold;}
+
+#Pie{
+background:url(IMG/pie.jpg);
+height:74px;}
+
+/*MENU*/
+
+#menu{
+font-size:10px;
+width:175px;
+padding-left:0px;
+font-family:Verdana;
+float:left;}
+
+#menu ul{
+margin:0px;
+margin-left:0px;
+margin-right:0px;
+padding-left:15px;
+
+}
+
+#menu ul a
+{
+display:block;
+color:#FFFF99;
+height:13px;
+text-decoration:none;
+width: 150px;
+padding-left:15px;
+padding-top:17px;
+padding-bottom:10px;
+background:url(IMG/fondobotores5.gif);
+}
+
+#menu ul a:hover
+{
+text-decoration:none;
+color:#FFFFFF;
+padding-left:15px;
+background:url(IMG/fondobotores4.gif);
+}
+
+#menu ul a:visited{}
+
+#menu li{
+font-size:9px;
+list-style:none;
+letter-spacing:1px;
+
+}
+
+#menu li:hover{
+text-decoration:none;
+
+
+}
+
+/*FIN MENU/*
+
+
+/* FORMULARIO */
+
+Form {
+width:550px;
+font-size:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+position:relative;
+top:2px;
+left:20px;
+background-image:url(IMG/fondoform.jpg);
+}
+
+input {
+background-color:#CCCCCC;
+border:#999999 1px solid;
+width:250px;
+margin:1px;
+}
+
+textarea{
+background-color:#CCCCCC;
+border:#999999 1px solid;
+width:250px;
+margin:1px;
+}
+
+.boton{
+width:60px;
+marging-left:190px;
+border: #990000 1px double;
+color:#000000;
+clear:both;}
+
+iframe{
+width:570px;
+height:300px;
+border:0px;
+}
+
+body#menuframe{
+background:#000000;
+color:#FFFF99;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+width:500px;
+}
+
+body#menuframe a {
+text-decoration:none;
+color:#FFFF00;}
+
+body#menuframe a:hover {
+text-decoration:underline;
+color:#CCCCCC;}
+
+body#menuframe img{
+margin:4px;
+float:right;
+border:#CCCCCC 1px solid;}
+
+body#menuframe ul{}
+
+body#menuframe li{
+line-height:55px;}

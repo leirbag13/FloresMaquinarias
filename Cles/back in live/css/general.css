@@ -1,0 +1,308 @@
+@charset "utf-8";
+/*-----------*/
+.clear{
+	clear:both;
+}
+/*-----------*/
+html{
+	background-color:#000;
+	width:100%;
+	height:auto;
+}
+/*--------------------------------------*/
+#formContacto input.error, #formContacto textarea.error{
+	border: 1px solid #c24949;	
+}
+/*-------------CABECERA-----------------*/
+#cabecera{
+	width:900px;
+	height:100px;
+	margin:0 auto;
+}
+#todoLogo, #reproductor{
+	width:250px;
+	height:auto;
+	float:left;
+}
+#logo{
+	width:250px;
+	height:75px;
+}
+#slogan{
+	width:250px;
+	height:25px;
+	font-size:8px;
+	line-height:25px;
+	color:#FFF;
+	text-align:center;
+}
+#redesSociales{
+	width:400px;
+	height:100px;
+	float:left;
+}
+#btnsRedes{
+	width:150px;
+	height:100px;
+	float:right;
+}
+.unBtnRedes{
+	width:150px;
+	height:45px;
+}
+/*---------BOTONERA--------------------*/
+#botonera{
+	width:900px;
+	height:40px;
+	margin:0 auto;
+}
+.unBoton{
+	width:auto;
+	height:40px;
+	padding:0 15px;
+	float:right;
+}
+.unBoton a{
+	width:100%;
+	height:100%;
+	display:block;
+	text-decoration:none;
+	font-size:15px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#FEFF01;
+	text-align:center;
+	line-height:40px;
+}
+.unBoton a:hover{
+	font-style:italic;
+}
+/*-----------CONTENEDOR--------------------*/
+#contenedor{
+	width:900px;
+	height:450px;
+	margin:0 auto;
+}
+#contenidoIzquierda{
+	width:250px;
+	height:450px;
+	background-color:#00C;
+	float:left;
+}
+#contenidoIzquierda a{
+	display:block;
+	text-decoration:none;
+	color:#000;
+}
+#contenidoDerecha{
+	width:650px;
+	height:450px;
+	background-color:#999;
+	float:right;
+}
+/*---------------DEPORTES-----------------*/
+#deportes{
+	width:900px;
+	height:200px;
+	background-image:url(../img/fondoDeportes.jpg);
+	margin:0 auto;
+	margin-top:20px;
+}
+#txtDeporte{
+	width:250px;
+	height:200px;
+	float:left;
+}
+.imgDeporte{
+	width:180px;
+	height:180px;
+	margin:10px 15px;
+	float:left;
+}
+/*------------------PIE-------------------*/
+#pie{
+	width:900px;
+	height:40px;
+	margin:20px auto;
+	background-color:#FFFF33;
+	font-size:12px;
+	color:#000;
+	text-align:center;
+	line-height:40px;
+	font-weight:bold;
+}
+/*-------------------NOSOTROS------------*/
+#txtNosotros{
+	width:220px;
+	height:200px;
+	padding:60px 15px 150px;
+	font-size:10px;
+	text-indent:15px;
+	text-align:justify;
+	line-height:120%;
+}
+/*-------------BTNS VARIOS---------------*/
+#btnsVarios{
+	width:900px;
+	height:140px;
+	margin:20px auto;
+}
+.colBtnsVarios{
+	width:280px;
+	height:140px;
+	margin:0 10px;
+	float:left;
+}
+.imgBtnsVarios{
+	width:280px;
+	height:100px;
+	margin-bottom:10px;
+}
+.txtBtnsVarios{
+	width:280px;
+	height:30px;
+	background-color:#666;	
+}
+.txtBtnsVarios a{
+	display:block;
+	text-decoration:none;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#FEFF01;
+}
+.txtBtnsVarios a:hover{
+	color:#000;
+	background-color:#00ffff;
+}
+/*--------------------------PRODUCTOS----------------*/
+.colProductos{
+	width:280px;
+	height:450px;
+	margin:0 10px;
+	float:left;
+}
+/*------------------------COLEGIOS---------------------*/
+#btnsColegios{
+	width:200px;
+	height:370px;
+	padding:80px 20px 20px 30px;
+	font-size:14px;
+	line-height:20px;
+}
+#btnsColegios a:hover{
+	color:#F00;
+}
+/*-----------------------CONTACTO----------------------*/
+#txtContacto{
+	width:250px;
+	height:115px;
+	margin-top:60px;
+	font-size:13px;
+	color:#FFF;
+	text-indent:5px;
+	line-height:200%;
+}
+#formContacto ul{
+	margin:15px 10px;
+}
+#formContacto ul li{
+	margin-bottom:3px;
+}
+#formContacto label{
+	float:left;
+	width:220px;
+	font-size:12px;
+	padding:10px 0;
+	padding-left:5px;
+}
+#formContacto input, textarea{
+	width:220px;
+	font-size:15px;
+	padding-left:5px;
+	border:#CCC solid 1px;
+	background-color:#fdd38d;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#btnEnviar{
+	width:96px;
+	height:30px;
+	float:right;
+	margin-right:15px;
+}
+#btnEnviar a{
+	width:100%;
+	height:100%;
+	display:block;
+	cursor:pointer;
+	background-image:url(../img/btnEnviar.png);
+}
+#btnEnviar a:hover{
+	background-position:0 -30px;
+}
+#estado{
+	clear:both;
+	padding-top:10px;
+	margin:10px;
+	height:20px;
+}
+#estado p, #resultado{
+	font-size:12px;
+	font-weight:bold;
+}
+#formContacto input.error, #formContacto textarea.error{
+    border: 1px solid #c24949;    
+}
+#mapaContacto{
+	width:630px;
+	height:430px;
+	border:#333 10px solid;
+}	
+
+/*---------------------------------SLIDER----*/
+.pix_diapo_home {
+	clear: both;
+	background: #FFF;
+	height: 450px;
+	overflow: hidden;
+	position: relative;
+	width: 650px;
+}
+.pix_diapo_home > div {
+	display: none;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#pix_pag {
+	margin: 0 auto 0 auto;
+	position: relative;
+	width: 650px;
+	z-index: 1002;
+}
+#pix_prev, #pix_next {cursor: pointer;display: block;height: 40px;margin-top: -20px;position: absolute;top: 50%;width: 40px;z-index: 1001;}
+#pix_prev {background: url(../img/prev.png) no-repeat;left: 10px;display: none;}
+#pix_next {background: url(../img/next.png) no-repeat;left: auto!important;right: 10px!important;display: none;}
+#pix_commands {cursor: pointer;display: block;float: left;height: 26px;margin: -30px 0 0 13px;position: relative;width: 24px;}
+#pix_play {background: url(../img/play.png) center no-repeat;height: 24px;left: 0;position: absolute;top: 0;width: 24px;}
+#pix_stop {background: url(../img/pause.png) center no-repeat;height: 24px;left: 0;position: absolute;top: 0;width: 24px;}
+#pix_pag_ul {float: right;margin: -50px 0 0 0;padding: 0;}
+#pix_pag_ul > li {cursor: pointer;display: block;display: inline-block;float: left;list-style: none;margin: 0 5px 0 0;padding: 20px 8px 0;
+    text-align: center;text-indent: -9999px;width: 16px;}
+#pix_pag_ul > li > span {background: #4b4b4b;border-radius: 8px;display: block;height: 16px;width: 16px;}
+#pix_pag_ul > li:hover > span > span {background: #ccc;}
+#pix_pag_ul > li > span > span {border-radius: 8px;display: block;float: left;height: 8px;margin: 4px;width: 8px;}
+#pix_pag_ul > li.diapocurrent > span > span {background: #3398CC;border-radius: 8px;}
+#pix_pag_ul > li > .pix_thumb {border: 4px solid #f2f2f2;border: 4px solid #e6e6e6;border: 4px solid #e6e6e6\9;box-shadow: 0 1px 8px #000;
+    height: 58px;left: -17px;position: absolute;top: -40px;width: 58px;}
+#pix_pag_ul > li > .thumb_arrow {border-left: 4px solid transparent;border-right: 4px solid transparent;border-top: 4px solid  #e6e6e6;
+    top: 26px;left: 12px;position: absolute;}
+.pix_relativize {overflow: hidden;position: relative;}
+.imgFake {cursor: pointer;}
+.elemHover {position: absolute;}
+.caption {background: rgba(0, 0, 0, 0.8);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000)\9;bottom: 20px;color: #fff;
+    display: block;font-size: 13px;padding: 10px;width: 650px;}
+.ui-loader {display: none;}

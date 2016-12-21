@@ -1,0 +1,54 @@
+body
+{
+ background-color: #BECDDC;
+}
+#global
+{
+    background-image: url(../images/small-business-marketing.jpg);
+    width: 1020px;
+    height: 600px;
+    background-repeat:no-repeat;
+    margin:60px auto 0 auto;
+
+}
+#titlogin
+{
+    background-image: url(../images/titlogin.png);
+    background-repeat:no-repeat;
+    width: 599px;
+    height: 137px;
+    margin-left:   421px;
+    position: absolute;
+    
+}
+.titlogin
+{
+    margin:auto 0 auto;
+    font-size: 50px;
+}
+#loguin
+{
+    background-image: url(../images/login.png);
+    background-repeat:no-repeat;
+    width: 412px;
+    height: 365px;
+    margin-left:   560px;
+    margin-top:   186px;
+    position: absolute;
+    text-align: center;
+}
+#logform
+{
+  position: absolute;
+  margin-left:   124px;
+  margin-top:   109px;
+}
+.error
+{
+    color: red;
+    position: absolute;
+    width: 300px;
+    margin-top: 95px;
+    margin-left: 50px;
+    font-size: 17px;
+}

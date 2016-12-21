@@ -1,0 +1,3 @@
+ftp.floresmaquinarias.com.ar
+ user wwwflor
+ pass f2KKxPZ6ju 

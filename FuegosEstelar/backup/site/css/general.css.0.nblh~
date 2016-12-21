@@ -1,0 +1,307 @@
+/*css general*/
+/*fuente*/
+@Font-face {
+font-family: Futura;
+src: url("../fonts/futural.ttf");
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #000;
+}
+
+a
+{
+    text-decoration: none;
+}
+img
+{
+    border:0;
+}
+
+
+#global
+{
+ background: url(../images/background.jpg);
+ background-repeat: no-repeat;   
+ width: 1600px;
+ height: 900px;
+ margin: auto;
+ text-align: left;
+}
+
+#fireworks
+{
+   
+    height: 622px;
+    margin-left: 322px;
+    margin-top: 14px;
+    position: absolute;
+    width: 318px;
+    z-index: 1;
+}
+
+.image
+{
+    width: 100%;
+    height: 100%;
+   
+}
+
+#logo
+{
+    margin-left: 8px;
+    margin-top: -489px;
+    position: absolute;
+}
+
+/*MENU*/
+#menu
+{
+   
+    height: 544px;
+    margin-left: 683px;
+    margin-top: 67px;
+    position: absolute;
+    width: 130px;
+    
+}
+
+#menu .item 
+{
+    height: 60px;
+    margin-bottom: 18px;
+    margin-left: -45px;
+    width: 123px;
+}
+#menu .item a
+{
+    height: 86px;
+    margin-bottom: 12px;
+    position: absolute;
+    width: 141px;
+}
+
+/*CONTENIDO*/
+
+#content
+{
+    background: url("../images/bacground-content.png") no-repeat scroll 0 0 transparent;
+    height: 541px;
+    margin-left: 800px;
+    margin-top: 66px;
+    position: absolute;
+    width: 463px;
+}
+
+/*FOOTER*/
+#footer
+{
+    background: url("../images/footer.jpg") no-repeat scroll 0 0 transparent;
+    height: 39px;
+    margin-left: 327px;
+    margin-top: 697px;
+    position: absolute;
+    width: 972px;
+}
+
+#footer span
+{
+    color: #FFFFFF;
+    font-family: Futura;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+/*producto*/
+/*MENU*/
+#menu-produc
+{
+   
+    height: 544px;
+    margin-left: 705px;
+    margin-top: 55px;
+    position: absolute;
+    width: 130px;
+    
+}
+#menu-produc span
+{
+    color: #FFFFFF;
+    font-family: Futura;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: -87px;
+    margin-top: 7px;
+    position: absolute;
+    width: 80px;
+    
+    
+}
+
+#menu-produc .item 
+{
+    height: 33px;
+    margin-bottom: 18px;
+    margin-left: -45px;
+    width: 123px;
+}
+#menu-produc .item a
+{
+    height: 42px;
+    margin-bottom: 12px;
+    position: absolute;
+    width: 141px;
+}
+
+#content-produc
+{
+    background: url("../images/bacground-content.png") no-repeat scroll 0 0 transparent;
+    height: 478px;
+    margin-left: 867px;
+    margin-top: 120px;
+    position: absolute;
+    width: 596px;
+}
+#men-produc
+{
+    background: url("../images/bacground-menu-producto.png") no-repeat scroll 0 0 transparent;
+    height: 56px;
+    left: 1036px;
+    margin-top: 33px;
+    position: absolute;
+    width: 463px;
+}
+#men-produc ul
+{
+    list-style: none;
+    margin-left: -33px;
+    margin-top: 0;
+}
+#men-produc ul li
+{
+    float: left;
+}
+#men-produc #circulo
+{
+   /* background: url("../images/men-produc-circulo.png") no-repeat scroll 0 0 transparent;*/
+    height: 98px;
+    margin-left: 14px;
+    margin-top: -25px;
+    width: 97px;
+    position: relative;
+    z-index: 2;
+}
+
+#men-produc #circulo span
+{
+    color: #FFFFFF;
+    font-family: Futura;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: -67px;
+    position: absolute;
+    margin-left: 20px;
+    *float: left;
+    *position: relative;
+}
+
+#back-produc
+{
+    float: right;
+    height: 40px;
+    margin-right: 343px;
+    margin-top: 626px;
+    width: 123px;
+}
+
+/*empresa*/
+
+#content .stitle
+{
+    font-family: Times New Roman;
+    font-size: 23px;
+    margin-left: 17px;
+    width: 227px;
+    *margin-top: 25px;
+}
+#content .title
+{
+    margin-left: 1px;
+    margin-top: 9px;
+    width: 428px;
+}
+/*servicios*/
+#content .tit-content
+{
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*contacto*/
+#form-contact
+{
+    margin-left: 48px;
+    width: 412px;
+}
+
+#form-contact input.text
+{
+    height: 26px;
+    margin-top: 5px;
+    width: 350px;
+    background: #EDEDED;
+    border: 0;
+}
+
+#form-contact p
+{
+    font-family: Futura;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+#form-contact textarea
+{
+    background: #EDEDED;
+    border: 0;
+}
+
+#form-contact input.b-enviar
+{
+    
+   
+    float: right;
+    margin-right: 62px;
+    margin-top: 9px;
+    background: none repeat scroll 0 0 #A10707;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 11px;
+    height: 26px;
+    width: 82px;
+}
+
+#content .dir
+{
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 141px;
+    margin-top: 59px;
+    *margin-top: 10px;
+}
+
+/*video*/
+#wrap
+{
+   margin-left: 6px;
+    margin-top: 354px;
+}

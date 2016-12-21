@@ -1,0 +1,12 @@
+ ftp :
+  ftp.fuegosestelar.com.ar  
+  user fuegos 
+  pass AYdH2d1Zxd
+  
+
+hosting:
+
+servidor de Nuthost  :    
+http://micerino.servidoraweb.net:2086/ 
+user: matiasm
+pass: SUR21397491SUR

@@ -1,0 +1,28 @@
+#categorias
+{
+    text-align: left;
+}
+.mas
+{
+    /*margin-left: 650px;*/
+    /*position: absolute;*/
+}
+
+.subcategoria
+{
+    text-align: center;
+    width: 593px;
+ 
+}
+.subcategoria ul li
+{
+    list-style: none;
+    border: 1px solid;
+}
+
+.videos
+{
+    text-align: left;
+    width: 800px;
+    margin-left: 20px;
+}

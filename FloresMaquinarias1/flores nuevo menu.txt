@@ -1,0 +1,9 @@
+new       old
+
+
+
+Inicio = noticias...  imagen, titulo, subtitulo con la fecha, descripcion   ok
+
+empresa = novedades ....  titulo,texto, imagen
+
+sericios = servicio

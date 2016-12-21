@@ -1,0 +1,8 @@
+Otra opción es subirlo a paginademos.com.ar/flores   user demos  pass 6n8t5sykAR ( server nuthost) 
+
+http://paginademos.com.ar/ESTELAR/controller/empresa.php
+
+
+http://paginademos.com.ar:2082/cpsess3298599103/frontend/x3/sql/index.html
+
+ a paginademos.com.ar/cpanel   user demos  pass 6n8t5sykAR

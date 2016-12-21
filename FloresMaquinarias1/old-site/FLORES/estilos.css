@@ -1,0 +1,164 @@
+body {
+	background-repeat: repeat;
+	background:url(IMG/fondobody.jpg); 
+}
+/*
+	Menu Vertical
+*/
+#menuv {
+	width: 116px;
+	font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-right: 5px;
+}
+
+#menuv ul, li {
+	list-style-type: none;
+}
+
+#menuv ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menuv li {
+	border-bottom: 1px solid #ACCFE8;
+	height:22px;
+}
+
+#menuv a {
+	text-decoration: none;
+	color: #3366CC;
+	background: #EF9E2C;
+	display: block;
+	padding: 1px 6px;
+	width: 104px;
+}
+
+#menuv a:hover {
+	background: #0066FF;
+	color:#000000;
+}
+
+.epi {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.contenido{
+	width:500px;
+	height:350px;
+	margin:auto;
+	overflow:auto;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin:5px 5px 0 5px;
+	color: #3300FF;
+	}
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin:0;
+	color: #000000;
+	}
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	margin:5px 5px 0 5px;
+	color: #000000;
+	}
+p.descripciones{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	font-size:11px;
+	font-weight:bold;
+	margin:0;
+	color: #000000;
+	}
+p.caracteristicas{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+	font-size:11px;
+	margin:5px 5px 0 5px;
+	color: #000000;
+	}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:11px;
+	margin:2px 5px 0 5px;
+	color: #000000;
+	}
+p.celda{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:11px;
+	margin:2px 5px 0 5px;
+	color: #000000;
+	}
+p.desc_fotos{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-style:italic;
+	font-size:12px;
+	margin:5px;
+	color:#FF0000;
+	}
+p.piecito{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-style:italic;
+	font-weight:bold;
+	font-size:12px;
+	margin:5px;
+	color:#0066CC;
+	}
+.margen_sup_15{
+	margin-top:15px;
+	}
+.receta{
+	margin:15px auto 0px auto;
+	border:solid 1px;
+	border-color:#000000;
+	background-color:#FFFFFF;
+	width:470px;
+	}
+.receta td{
+	padding:5px;
+	border:solid 1px;
+	border-color:#000000;
+	}
+input{
+	width:90%;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:lft;
+	font-style:italic;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+	}
+textarea{
+	width:90%;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-style:italic;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+	}
+a.contenidos{
+	margin:auto;
+	text-decoration: none;
+	color: #3366CC;
+	background: #EF9E2C;
+	display: block;
+	padding: 1px 6px;
+	width: 104px;
+}
